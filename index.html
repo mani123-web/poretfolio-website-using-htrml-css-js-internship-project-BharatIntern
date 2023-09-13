@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive personal portfolio website </title>
+<!--box icon -->
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<!--custom css -->
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#About">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="contact">Contact</a>
+        </nav>
+    </header>
+    <!--home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h2> Hello ,It's me</h2>
+            <h1>Manikant Sharma </h1>
+            <h2> I am a <span>Full Stack Developer</span></h2>
+            <p><h2>Strong in design and integration with impuititive problem solving skill,I am eager to apply my knowlwdge to real world project</h2></p>
+        <div class="social-media">
+            <a href="#" > <i class='bx bxl-instagram-alt' ></i></a>
+            <a href="#" > <i class='bx bxl-facebook'></i></a>
+            <a href="#" > <i class='bx bxl-linkedin' ></i></a>
+            <a href="#" > <i class='bx bxl-twitter' ></i></a>
+        </div> 
+        <a href="#" class="btn"> Download CV </a>  
+        </div>
+
+    <div class="home-image">      
+        <img src="images/home.jpg" alt="img not found" >
+    </div>
+    </section>
+
+    <!--about section design -->
+    <section class="about" id="about" >
+        <div class="about-img">
+            <img src="images/about.jpg" alt="image not found">
+        </div>
+        <class="about-content">
+            <h2 class="heading">About<spain> Me</spain></h2>
+            <h3> Full Stack Developer </h3>
+            <p> I belong to Mandi Dhanaura Amroha .I have done my BSC in Computer Science</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section> 
+    <!--services section design -->
+    <h2 class="heading"> <span>Expertise</span></h2>
+    <div class="services-container">
+        <div class="services-box">
+            <i class='bx bx-code-alt'></i>
+            <h3> Web Development</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga quia labore numquam similique quod nihil esse asperiores id mollitia aliquid veniam omnis, atque laudantium possimus ipsum voluptatem voluptatum odit harum?</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+        <div class="services-box">
+            <i class='bx bxs-paint'></i>
+            <h3>Graph Designing</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga quia labore numquam similique quod nihil esse asperiores id mollitia aliquid veniam omnis, atque laudantium possimus ipsum voluptatem voluptatum odit harum?</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+        <!----
+        <div class="services-box">
+            <i class='bx bx-code-alt2'></i>
+            <box-icon name='bar-chart-alt-2'></box-icon>
+            <h3>Digital Marketing</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga quia labore numquam similique quod nihil esse asperiores id mollitia aliquid veniam omnis, atque laudantium possimus ipsum voluptatem voluptatum odit harum?</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    -->
+    </div>
+    <!--portfolio section design-->
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading" >Latest<span> Project</span></h2>
+      
+      <class="portfolio-container">
+        <div class="portfolio-box"> 
+        <img src="images/portfolio1.jpg" alt="image not found">
+        <div class="portfolio-layer"><h4>Credit Card fraud detection Using ML using Python</h4> 
+        <p>This project detect how many transaction are legit and how many transaction are fraudlent transaction using regression model using random forest machine learning model with the help of sameple dataset</p>
+        <a href="#"><i class='bx bx-link-external'></i></a>
+        </div>
+      </div>
+      <div class="portfolio-box"> 
+        <img src="images/portfolio2.jpg" alt="image not found">
+        <div class="portfolio-layer"><h4>Online food Ordering System </h4> 
+        <p>In this project user can order the food according thier choice and preferences,This project is made up with Html,css,js,python,django</p>
+        <a href="#"><i class='bx bx-link-externel'></i></a>
+    </div>
+
+    </section>
+
+    <!--contact section design-->
+    <section class="contact" id="contact">
+        <h2 class="heading" >Contact<span>Me</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Adress"> 
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number ">
+                <input type="text" placeholder="Email Subject"> 
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="your message"></textarea>
+            <input type="submit" value="send Message" class="btn">
+        </form>
+    </section>
+    <!--footer design-->
+    <footer class="footer">
+    <div class="footer-text">
+        <p>copyright &copy; 2023 by Manikant Sharma | All Rights Reserved</p>
+    </div> 
+    <div class="foote-iconTop">
+        <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+    </footer>
+    <!--custom.js-->
+    <script src="portfolio website/script.js"></script>
+</body>
+</html>
